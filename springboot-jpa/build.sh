@@ -8,7 +8,7 @@ MYIMAGE=127.0.0.1:8008/test/springboot-jpa
 #docker login 192.168.1.2:8082 -u admin -p admin123
 
 # stop all container
-docker kill $(docker ps -aq)
+#docker kill $(docker ps -aq)
 
 # remove all container
 #docker rm $(docker ps -aq)
