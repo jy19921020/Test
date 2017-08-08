@@ -14,7 +14,7 @@ MYIMAGE=127.0.0.1:8008/test/springboot-jpa
 #docker rm $(docker ps -aq)
 
 # remove old images
-docker images | grep 127.0.0.1:8008/test/springboot-jpa | awk '{print $3}' | xargs docker rmi
+#docker images | grep 127.0.0.1:8008/test/springboot-jpa | awk '{print $3}' | xargs docker rmi
 
 # build jar and image
 mvn package -e -X docker:build -DskipTest
