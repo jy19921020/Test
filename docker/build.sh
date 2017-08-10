@@ -2,5 +2,6 @@
 rm -rf build
 mkdir build
 cp ../target/jenkins-ci-demo-*.jar app.jar
-docker build -t yyqian/jenkins-ci-demo .
+#通过docker build -t 指向dockerfile 并创建镜像 语法：docker build [OPTIONS] PATH | URL    PATH 是 . 即是当前目录
+docker build -t test/jenkins-ci-demo .
 rm -rf build
