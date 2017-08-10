@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker stop Test && docker rm Test
+docker stop jenkins-ci-demo && docker rm jenkins-ci-demo
