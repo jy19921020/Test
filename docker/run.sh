@@ -4,4 +4,4 @@ docker run -d \
 --name jenkins-ci-demo \
 -e spring.profiles.active="test" \
 -e server.port=8888 \
-yyqian/jenkins-ci-demo
+jy19921020/Test
